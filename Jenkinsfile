@@ -1,5 +1,5 @@
 // Reference the shared library by its name
-@Library('BCS_CES_bcs-shared-library') _  // Load the shared library
+@Library('bcs-shared-library') _  // Load the shared library
 
 pipeline {
     agent any
