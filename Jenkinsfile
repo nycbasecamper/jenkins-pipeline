@@ -24,7 +24,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building the application...'
-                standardPipelineCI()
+                standardPipelineCD()
             }
         }
 
